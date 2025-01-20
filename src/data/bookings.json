@@ -4,8 +4,8 @@
     "createdAt": "2024-07-12T06:50:10Z",
     "modifiedAt": "2024-10-20T00:38:51Z",
     "userId": "997562ab-c114-45f0-a8bc-3f8d717cc464",
-    "checkIn": "2025-01-12T04:06:42Z",
-    "checkOut": "2025-01-14T04:08:46Z",
+    "checkIn": "2025-01-20T04:06:42Z",
+    "checkOut": "2025-01-22T04:08:46Z",
     "totalBill": "$9.69",
     "advanceAmount": "$3.46",
     "rooms": [
@@ -22,8 +22,8 @@
     "createdAt": "2024-08-03T08:30:29Z",
     "modifiedAt": "2024-09-26T15:45:26Z",
     "userId": "dd073cd3-8cee-408b-8c2b-248f586a4e5e",
-    "checkIn": "2025-01-13T03:08:16Z",
-    "checkOut": "2025-01-16T13:39:36Z",
+    "checkIn": "2025-01-21T03:08:16Z",
+    "checkOut": "2025-01-23T13:39:36Z",
     "totalBill": "$6.88",
     "advanceAmount": "$7.50",
     "rooms": [
@@ -42,12 +42,30 @@
     ]
   },
   {
+    "id": "c94cc27c-e559-43bf-be53-06755d70aehh",
+    "createdAt": "2024-07-12T06:50:10Z",
+    "modifiedAt": "2024-10-20T00:38:51Z",
+    "userId": "997562ab-c114-45f0-a8bc-3f8d717cc464",
+    "checkIn": "2025-01-20T04:06:42Z",
+    "checkOut": "2025-01-26T04:08:46Z",
+    "totalBill": "$9.69",
+    "advanceAmount": "$3.46",
+    "rooms": [
+      {
+        "id": 106,
+        "floor": 1,
+        "roomType": "DOUBLE",
+        "isAc": true
+      }
+    ]
+  },
+  {
     "id": "58a7223f-6e4f-4f16-ab94-ca33a7e70f16",
     "createdAt": "2024-10-22T01:56:59Z",
     "modifiedAt": "2024-11-20T13:43:45Z",
     "userId": "e240e03c-5da8-449b-8bf1-8aebd216f30d",
-    "checkIn": "2025-01-12T01:35:33Z",
-    "checkOut": "2025-01-16T03:11:00Z",
+    "checkIn": "2025-01-21T03:08:16Z",
+    "checkOut": "2025-01-23T13:39:36Z",
     "totalBill": "$3.47",
     "advanceAmount": "$6.69",
     "rooms": [
@@ -64,8 +82,8 @@
     "createdAt": "2024-06-24T12:58:49Z",
     "modifiedAt": "2024-04-12T14:11:53Z",
     "userId": "9dd2e8ae-ddd0-4c6b-bdac-084c94e931d9",
-    "checkIn": "2025-01-14T01:35:33Z",
-    "checkOut": "2025-01-16T03:11:00Z",
+    "checkIn": "2025-01-21T03:08:16Z",
+    "checkOut": "2025-01-23T13:39:36Z",
     "totalBill": "$6.87",
     "advanceAmount": "$4.99",
     "rooms": [
@@ -82,8 +100,8 @@
     "createdAt": "2024-06-18T14:21:49Z",
     "modifiedAt": "2024-03-06T02:26:47Z",
     "userId": "dadf4366-8fa5-482f-9a1c-7d69f9cd5794",
-    "checkIn": "2025-01-14T01:35:33Z",
-    "checkOut": "2025-01-16T03:11:00Z",
+    "checkIn": "2025-01-21T03:08:16Z",
+    "checkOut": "2025-01-23T13:39:36Z",
     "totalBill": "$8.51",
     "advanceAmount": "$2.23",
     "rooms": [
@@ -100,8 +118,8 @@
     "createdAt": "2024-05-17T04:54:22Z",
     "modifiedAt": "2024-06-02T18:24:15Z",
     "userId": "2161824c-439e-43c1-b084-1c72b42e1926",
-    "checkIn": "2025-01-12T01:35:33Z",
-    "checkOut": "2025-01-16T03:11:00Z",
+    "checkIn": "2025-01-21T03:08:16Z",
+    "checkOut": "2025-01-23T13:39:36Z",
     "totalBill": "$3.51",
     "advanceAmount": "$3.58",
     "rooms": [

@@ -3,7 +3,7 @@ import GridLayout from 'react-grid-layout';
 import 'react-grid-layout/css/styles.css';
 import 'react-resizable/css/styles.css';
 
-const App = () => {
+const GridTest = () => {
   // Define the layout based on your provided positions
   const [layout, setLayout] = useState([
     { i: '0', x: 0, y: 0, w: 2, h: 2 },
@@ -71,4 +71,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default GridTest;

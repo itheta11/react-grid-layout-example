@@ -1,5 +1,61 @@
+:root{
+  --bg-teal-50: #f0fdfa;
+  --bg-teal-200: #99f6e4;
+  --bg-teal-300: #5eead4;
+  --bg-teal-500: #14b8a6;
+  --bg-teal-900: #064e3b;
+  --bg-teal-950: #042f2e;
+
+}
+
 body {
   padding: 0;
   margin: 0;
-  background-color: white;
+  background-color: var(--bg-teal-50);
+  color: var(--bg-teal-950);
+
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scheduler {
+  width: 100vw;
+  height: 100vh;
+  --header-height: 4rem;
+  --room-col: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+.scheduler .header{
+  background-color: var(--bg-teal-500);
+  min-height: var(--header-height);
+}
+
+.scheduler .roomBooking{
+  display: flex;
+}
+
+.scheduler .roomBooking .rooms{
+  width: var(--room-col);
+  display: flex;
+  flex-direction: column;
+}
+
+.room {
+  background-color: var(--bg-teal-300);
+  height: 64px;
+  font-size: large;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.scheduler .roomBooking .bookings{
+  flex: 1 1 auto
+}
+
+.layout {
+  background-color: var(--bg-teal-200);
 }
